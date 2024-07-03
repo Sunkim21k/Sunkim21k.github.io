@@ -14,53 +14,33 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: SunKim Data # the main title
+title: "SunKim Data" # the main title
 
-<<<<<<< HEAD
-tagline: studying data analysis # it will display as the sub-title
-=======
-tagline: A text-focused Jekyll theme # it will display as the subtitle
->>>>>>> 75762c899ea57ac6c3937375c369b556db487919
+tagline: "studying data analysis" # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Welcome to the SunKim Data blog!
-  I study data analysis and organize the insights I gain
+  "Welcome to the SunKim Data blog!"
+  "I study data analysis and organize the insights I gain"
 
 # Fill in the protocol & hostname for your site.
-<<<<<<< HEAD
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://Sunkim21k.github.io "
+url: "https://Sunkim21k.github.io"
 
 github:
   username: Sunkim21k # change to your github username
 
 # twitter:
 #   username: twitter_username # change to your twitter username
-=======
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
-
-github:
-  username: github_username # change to your GitHub username
-
-twitter:
-  username: twitter_username # change to your Twitter username
->>>>>>> 75762c899ea57ac6c3937375c369b556db487919
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Sun Hyuk Kim
-  email: sunhyuk22k@gmail.com # change to your email address
+  name: "Sun Hyuk Kim"
+  email: "sunhyuk22k@gmail.com" # change to your email address
   links:
     # The first element serves as the copyright owner's link
-<<<<<<< HEAD
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/sunkim21k # change to your github homepage
-=======
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
->>>>>>> 75762c899ea57ac6c3937375c369b556db487919
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
