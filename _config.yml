@@ -16,13 +16,18 @@ timezone: Asia/Seoul
 
 title: SunKim Data # the main title
 
+<<<<<<< HEAD
 tagline: studying data analysis # it will display as the sub-title
+=======
+tagline: A text-focused Jekyll theme # it will display as the subtitle
+>>>>>>> 75762c899ea57ac6c3937375c369b556db487919
 
 description: >- # used by seo meta and the atom feed
   Welcome to the SunKim Data blog!
   I study data analysis and organize the insights I gain
 
 # Fill in the protocol & hostname for your site.
+<<<<<<< HEAD
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://Sunkim21k.github.io "
 
@@ -31,6 +36,16 @@ github:
 
 # twitter:
 #   username: twitter_username # change to your twitter username
+=======
+# E.g. 'https://username.github.io', note that it does not end with a '/'.
+url: ""
+
+github:
+  username: github_username # change to your GitHub username
+
+twitter:
+  username: twitter_username # change to your Twitter username
+>>>>>>> 75762c899ea57ac6c3937375c369b556db487919
 
 social:
   # Change to your full name.
@@ -39,8 +54,13 @@ social:
   email: sunhyuk22k@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
+<<<<<<< HEAD
     # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/sunkim21k # change to your github homepage
+=======
+    - https://twitter.com/username # change to your Twitter homepage
+    - https://github.com/username # change to your GitHub homepage
+>>>>>>> 75762c899ea57ac6c3937375c369b556db487919
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -72,7 +92,7 @@ analytics:
   cloudflare:
     id: # fill in your Cloudflare Web Analytics token
 
-# Pageviews settings
+# Page views settings
 pageviews:
   provider: # now only supports 'goatcounter'
 
@@ -84,8 +104,8 @@ pageviews:
 #
 # Available options:
 #
-#     light  - Use the light color scheme
-#     dark   - Use the dark color scheme
+#     light — Use the light color scheme
+#     dark — Use the dark color scheme
 #
 theme_mode: # [light | dark]
 
@@ -107,7 +127,7 @@ social_preview_image: # string, local or CORS resources
 toc: true
 
 comments:
-  # Global switch for the post comment system. Keeping it empty means disabled.
+  # Global switch for the post-comment system. Keeping it empty means disabled.
   provider: # [disqus | utterances | giscus]
   # The provider options are as follows:
   disqus:
@@ -137,9 +157,9 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # the option for PWA feature (installable)
+  enabled: true # The option for PWA feature (installable)
   cache:
-    enabled: true # the option for PWA offline cache
+    enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
     # Usually its value is the `baseurl` of another website that
     # shares the same domain name as the current website.
@@ -169,6 +189,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  app:
+    output: true
+    permalink: /:name
 
 defaults:
   - scope:
@@ -191,10 +214,6 @@ defaults:
     values:
       layout: page
       permalink: /:title/
-  - scope:
-      path: assets/js/dist
-    values:
-      swcache: true
 
 sass:
   style: compressed
