@@ -4,5 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+> Welcome to the SunKim Data blog!
+> {: .prompt-tip }
+
+I study data analysis and organize the insights I gain
