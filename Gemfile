@@ -17,3 +17,6 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo-data"
 end
   gem 'wdm', '>= 0.1.0' if Gem.win_platform?
+
+  gem 'jekyll-compose', group: [:jekyll_plugins]
+  

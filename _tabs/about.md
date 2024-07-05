@@ -4,7 +4,6 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Welcome to SunKim Data blog!
-> {: .prompt-tip }
-
-I study data analysis and organize the insights I gain
+{: .prompt-info }
+> Welcome to SunKim Data blog!  
+> I study data analysis and organize the insights I gain  

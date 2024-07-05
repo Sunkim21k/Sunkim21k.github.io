@@ -224,3 +224,11 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+jekyll_compose: # 게시물 레이아웃 생성 플러그인
+  auto_open: true # 새 게시물 생성시 설정한 편집기로 열기
+  default_front_matter:
+    posts: # post명령으로 열때
+      description: 글요약(검색어)
+      categories: [main_category, sub_category] # 메인카테고리, 하위카테고리
+      tags: [반드시 소문자로 작성, 한글가능]
