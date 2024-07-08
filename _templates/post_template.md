@@ -75,6 +75,8 @@ https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-wr
 ***굵고 기울게***  
 테스트용<sub>아래첨자</sub>텍스트  
 테스트용<sup>위첨자</sup>텍스트  
+<U>밑줄</U>
+<br> 엔터 
 
 ## 글색상 설정
 <span style="color:red"> red </span>  
@@ -128,8 +130,8 @@ https://docs.github.com/ko/get-started/writing-on-github/getting-started-with-wr
 </div>
 
 # 프롬프트
-{: .prompt-info }
 > 내용  
+{: .prompt-info }
 info : tip, info, warning, danger
 
 # 인라인코드
@@ -142,7 +144,6 @@ Here is the `/path/to/the/file.extend`{: .filepath}.
 ```text
 This is a plaintext code snippet.
 ```
-{: .nolineno } # 코드 줄표시 안하려면  
 {: file='path/to/text.txt'} # 가운데 상단 코드 언어표시를 파일이름으로 대체
 
 # 테이블
