@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow:/
+
+Sitemap: https://sunkim21k.github.io/sitemap.xml
