@@ -1,0 +1,21 @@
+<ul>
+  {% assign current_main_category = page.categories[0] %}
+  {% assign current_sub_category = page.categories[1] %}
+  
+  {% for post in site.posts %}
+    {% assign post_main_category = post.categories[0] %}
+    {% assign post_sub_category = post.categories[1] %}
+
+    {% if post.url != page.url %}
+      {% if current_sub_category %}
+        {% if post_sub_category == current_sub_category %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% else %}
+        {% if post_main_category == current_main_category %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>

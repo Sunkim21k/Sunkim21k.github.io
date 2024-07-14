@@ -18,7 +18,6 @@ tags:           # 반드시 소문자로 작성, 한글가능
 #mermaid: true # 다이어그램 생성 도구 (https://github.com/mermaid-js/mermaid)
 #math : true # 수학도구
 ---
-[Python study 1 - 식별자, 자료형, 문자열](/posts/python-study-1)  
 
 <br>
 
