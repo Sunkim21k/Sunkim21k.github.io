@@ -75,7 +75,10 @@ ex) 식별자 구분 예시
 
 ## 자료형   
 ---
- - 자료형 확인 : `type()`함수 사용
+ - 자료형 확인 : `type()`함수 사용   
+   - type("문자열") is str → 문자열인지 True/False 반환   
+   - type([]) is list → 리스트인지 True/False 반환   
+   - type({}) is dict → 딕셔너리인지 True/False 반환   
 
  - 기본자료형
     - 문자열(str) String  
