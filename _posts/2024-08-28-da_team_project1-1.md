@@ -1,6 +1,6 @@
 ---
 #layout: post
-title: 서울시 대중교통 개선 팀프로젝트1 - 협업일지 2024-08-27
+title: 서울시 대중교통 개선 팀프로젝트1 - 주제탐색
 date: 2024-08-27
 description: # 검색어 및 글요약
 categories: [Data_analysis, Team_project1]        # 메인 카테고리, 하위 카테고리(생략가능)
