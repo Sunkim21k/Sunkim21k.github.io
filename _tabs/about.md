@@ -5,5 +5,4 @@ order: 4
 ---
 
 {: .prompt-info }
-> Welcome to SunKim Data blog!  
-> I study data analysis and organize the insights I gain  
+> Welcome to SunKim Data blog!
