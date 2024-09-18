@@ -27,7 +27,7 @@ tags:           # 반드시 소문자로 작성, 한글가능
 ```python
 import pandas as pd
 
-user_activity = pd.read_csv('/content/drive/MyDrive/코드잇_DA_2기/학습/app_users.csv', encoding='utf-8-sig', index_col=[0])
+user_activity = pd.read_csv('/content/drive/MyDrive/app_users.csv', encoding='utf-8-sig', index_col=[0])
 user_activity.head()
 ```
 
