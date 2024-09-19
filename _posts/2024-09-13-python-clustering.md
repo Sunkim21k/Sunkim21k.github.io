@@ -2306,7 +2306,7 @@ plt.show()
 import pandas as pd
 pd.options.display.float_format = '{:,.2f}'.format
 
-sales_df = pd.read_csv('/content/drive/MyDrive/코드잇_DA_2기/학습/sales_data.csv', index_col=['customer_id'])
+sales_df = pd.read_csv('/content/drive/MyDrive/sales_data.csv', index_col=['customer_id'])
 
 sales_df
 ```
