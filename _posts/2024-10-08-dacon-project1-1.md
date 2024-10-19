@@ -3,7 +3,7 @@
 title: 데이콘 프로젝트 - 농산물 가격예측 1-1 데이터 살펴보기
 date: 2024-10-08
 description: # 검색어 및 글요약
-categories: [Data_analysis, Team_project2]        # 메인 카테고리, 하위 카테고리(생략가능)
+categories: [Data_analysis, Team_dacon_project1]        # 메인 카테고리, 하위 카테고리(생략가능)
 tags:           # 반드시 소문자로 작성, 한글가능
 - Data_analysis
 - Dacon
