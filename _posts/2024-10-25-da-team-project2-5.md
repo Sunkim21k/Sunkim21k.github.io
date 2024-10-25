@@ -56,10 +56,10 @@ tags:           # 반드시 소문자로 작성, 한글가능
         ```python
         import pandas as pd
         
-        df_log2022 = pd.read_csv('/content/drive/MyDrive/코드잇_DA_2기/팀프로젝트/중급1/hrdata/log_2022.csv')
+        df_log2022 = pd.read_csv('/content/drive/MyDrive/팀프로젝트/중급1/hrdata/log_2022.csv')
         df_log2022 = df_log2022.iloc[:, 1:]
         
-        df_log2023 = pd.read_csv('/content/drive/MyDrive/코드잇_DA_2기/팀프로젝트/중급1/hrdata/log_2023.csv')
+        df_log2023 = pd.read_csv('/content/drive/MyDrive/팀프로젝트/중급1/hrdata/log_2023.csv')
         df_log2023 = df_log2023.iloc[:, 1:]
         
         def concat_logs(log2022, log2023):
