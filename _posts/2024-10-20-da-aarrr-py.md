@@ -5,7 +5,7 @@ date: 2024-10-20
 description: # 검색어 및 글요약
 categories: [Data_analysis, Python_DA_Library]        # 메인 카테고리, 하위 카테고리(생략가능)
 tags:           # 반드시 소문자로 작성, 한글가능
-- aarrr
+- AARRR
 - 
 #pin: true # 해당글을 홈에서 고정시킬지
 #toc: false # 오른쪽 목차 설정
