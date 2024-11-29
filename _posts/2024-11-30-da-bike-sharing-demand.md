@@ -146,7 +146,7 @@ train['weather'] = train['weather'].map({1: 'Clear',
 
 - `datetime`열을 파생변수로 세분화하여 년, 월, 일, 시간별 평균 대여 수량을 파악하였다
 
-![image.png](/assets/img/bike_demand/3.PNG)
+![image.png](/assets/img/bike_demand/3.png)
 
 - 연도별 평균 대여 수량은 2011년보다 2012년에 더 많은것으로 관찰되었다
 - 월별 평균 대여 수량은 6월에 가장 많고 1월에 가장 적은것으로 관찰되며, 날씨가 추운날보다 따뜻한날에 대여수량이 많은것으로 관찰되었다
@@ -157,7 +157,7 @@ train['weather'] = train['weather'].map({1: 'Clear',
 
 #### 3-3-2. 계절, 공휴일, 근무일, 날씨 상황 시각화
 
-![image.png](/assets/img/bike_demand/4.PNG)
+![image.png](/assets/img/bike_demand/4.png)
 
 - 계절별 자전거 대여 수량은 봄에 가장 적고, 가을에 가장 많게 관찰되었다
 - 공휴일 여부에 따른 자전거 대여 수량은 비슷하게 관찰됐지만 공휴일이 아닌 경우 이상치가 다수 관찰됐으며, 이는 출퇴근 일상중에 자전거를 이용하는 요인이 더 많은것으로 판단된다
@@ -165,7 +165,7 @@ train['weather'] = train['weather'].map({1: 'Clear',
 - 날씨 상황에 따른 자전거 대여 수량은 날씨가 좋을수록 대여 수량이 많은것으로 관찰됐으며, 폭우 혹은 폭설일때 자전거 대여 수량은 거의 관찰되지않았다
 
 
-![image.png](/assets/img/bike_demand/5.PNG)
+![image.png](/assets/img/bike_demand/5.png)
 
 - 근무일 혹은 평일에는 출퇴근 시간대(8시, 17-18시)에 자전거 대여 수량이 많고, 휴일에는 12-14시에 가장 많이 대여하는 것으로 관찰되었다
 - 계절에 따른 시간대별 자전거 대여 수량도 앞서 살펴본 계절별 혹은 시간대별 자전거 대여 수량과 동일하며, 봄에 대여 수량이 상대적으로 적게 관찰되었다
@@ -179,7 +179,7 @@ train['weather'] = train['weather'].map({1: 'Clear',
 
 - 히트맵 시각화
 
-![image.png](/assets/img/bike_demand/6.PNG)
+![image.png](/assets/img/bike_demand/6.png)
 
 - casual(비회원)과 registered(회원)는 둘의 합인 count(총 대여 수)열과 각각 강한 양의 상관관계를 보였다
 - 온도(temp, atemp)와 대여 수량(count)간 상관계수는 0.39로 양의 상관관계를 보였으며, 이는 온도가 높을수록 대여 수량이 많아질 수 있음을 파악할 수 있다
@@ -190,7 +190,7 @@ train['weather'] = train['weather'].map({1: 'Clear',
 
 - 산점도 시각화
 
-![image.png](/assets/img/bike_demand/7.PNG)
+![image.png](/assets/img/bike_demand/7.png)
 
 - 실측 온도(temp)와 체감 온도(atemp)가 높을수록 자전거 대여 수량이 많아지는 것으로 관찰되었다
 - 습도(humidity)가 낮을수록 자전거 대여 수량이 많아지는 것으로 관찰되었다
